@@ -1,0 +1,10 @@
+package com.healthasyst.practise;
+
+public class StudentTask4 {
+	
+	private int studentID;
+	private String studentName;
+	private String studentEmailID;
+	private double studentPercentage;
+	private static String schoolName;
+}

@@ -1,0 +1,13 @@
+package com.healthasyst.practise;
+
+public class ProduceLastSamples {
+	
+	public static void Sample6(int n, int m){
+		
+		for (int i=n; i<n-m; i--)
+			System.out.println(+i);
+			
+		}
+	}
+
+}

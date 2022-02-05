@@ -1,0 +1,21 @@
+package com.healthasyst.practise;
+
+public class TempMaxMin {
+	
+	public static double getMax(double[] temp) {
+		
+		double maxValue=temp[0];
+		for (int i;i<temp.length;i++) {
+			maxValue=temp[i];
+		}
+		
+		return maxValue;
+		
+	}
+		
+		
+		
+		
+	}
+
+}

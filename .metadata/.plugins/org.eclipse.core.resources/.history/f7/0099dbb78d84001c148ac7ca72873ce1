@@ -1,0 +1,29 @@
+package com.healthasyst.practise;
+
+import com.ha.groups.Student;
+
+//Create Student type and Create 3 different instance for storing below values
+
+public class Task4Runner {
+
+	public static void main(String[] args) {
+		
+		StudentTask4 stu1 = new StudentTask4();
+		stu1.setName("Jack");
+		stu1.setEmail(9813728234L);
+		stu1.setStudentID(101);
+		stu1.setPercentage(75.0);
+		
+		StudentTask4 stu2 = new StudentTask4();
+		stu2.setName("Peter");
+		stu2.setEmail("peter@gmailc.om");
+		stu2.setStudentID(102);
+		stu2.setPercentage(85.0);
+		
+		stu1.printStudentDetail();
+		stu2.printStudentDetail();
+		
+
+	}
+
+}

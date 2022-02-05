@@ -1,0 +1,13 @@
+package com.healthasyst.methodoverloading;
+
+public class CalcTest {
+
+	public static void main(String[] args) {
+		
+		
+		Calculator cal=new Calculator();
+		Cal.add(1,10);
+
+	}
+
+}

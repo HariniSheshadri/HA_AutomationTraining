@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest" project="OpenEMRApplication" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="com.healthasyst.runner.RunnerTest" time="19.451">
+    <testsuite name="Login" time="19.451">
+      <testcase name="Valid Credential" classname="Login" time="19.451">
+        <failure>
+          <expected>Google</expected>
+          <actual>OpenEMR</actual>
+          org.junit.ComparisonFailure: expected:&lt;[Google]&gt; but was:&lt;[OpenEMR]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:117)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:146)&#13;
+	at com.healthasyst.stepdefn.LoginStep.i_should_get_access_to_portal_with_title_as(LoginStep.java:58)&#13;
+	at ✽.I should get access to portal with title as 'Google'(file:///C:/Users/harinis/.m2/OpenEMRApplication/src/test/resources/feature/Login.feature:11)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

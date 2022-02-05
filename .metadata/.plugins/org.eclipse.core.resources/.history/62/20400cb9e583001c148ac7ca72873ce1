@@ -1,0 +1,5 @@
+package com.ha.groups;
+
+public class Professor {
+
+}

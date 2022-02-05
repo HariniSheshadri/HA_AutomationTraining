@@ -1,0 +1,3 @@
+module SeleniumConcept {
+	requires jakarta.activation;
+}

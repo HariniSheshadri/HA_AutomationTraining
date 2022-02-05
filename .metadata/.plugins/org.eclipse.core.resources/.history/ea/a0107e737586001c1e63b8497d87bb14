@@ -1,0 +1,5 @@
+@login
+Feature: Patient
+  		In order to maintain medical records
+  		As a user
+  		I would like to access the OpenEMR portal

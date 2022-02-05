@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest" project="OpenEMRApplication" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="com.healthasyst.runner.RunnerTest" time="0.31">
+    <testsuite name="Login" time="0.31">
+      <testcase name="Valid Credential" classname="Login" time="0.31">
+        <error>java.lang.IllegalStateException: The driver executable must exist: C:\Users\harinis\.m2\OpenEMRApplication\src\test\resources\driver\chromedriver&#13;
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:342)&#13;
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:147)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:38)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:231)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:127)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:48)&#13;
+	at com.healthasyst.stepdefn.LoginStep.i_have_browser_with_open_emr_page(LoginStep.java:24)&#13;
+	at ✽.I have browser with OpenEMR page(file:///C:/Users/harinis/.m2/OpenEMRApplication/src/test/resources/feature/Login.feature:6)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

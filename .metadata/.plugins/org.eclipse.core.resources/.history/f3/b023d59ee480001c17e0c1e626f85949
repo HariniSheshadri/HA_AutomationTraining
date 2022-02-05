@@ -1,0 +1,9 @@
+package com.healthasyst.loops;
+
+public class LoopsDemo3 {
+	public static void main(String[] args) {
+		//for each is mostly used in COllections
+		
+	}
+
+}

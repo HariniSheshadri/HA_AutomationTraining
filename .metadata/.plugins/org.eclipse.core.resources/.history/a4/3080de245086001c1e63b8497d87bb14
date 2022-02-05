@@ -1,0 +1,12 @@
+package com.healthasyst.runner;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+
+@CucumberOptions(features= {"src/test/resources/feature/"})
+
+@RunWith(Cucumber.class)
+public class RunnerTest {
+
+}

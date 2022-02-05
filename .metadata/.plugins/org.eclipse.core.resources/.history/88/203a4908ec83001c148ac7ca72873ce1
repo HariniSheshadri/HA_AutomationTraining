@@ -1,0 +1,17 @@
+package com.ha.runner;
+
+import com.ha.groups.Student;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		//Create an object for Student to allocate memory
+		
+		Student stu1=new Student();
+		stu1.setName("Jane Davis");
+		stu1.setPhonenumber(9813728234L);
+		System.out.println(stu1.getName());
+
+	}
+
+}

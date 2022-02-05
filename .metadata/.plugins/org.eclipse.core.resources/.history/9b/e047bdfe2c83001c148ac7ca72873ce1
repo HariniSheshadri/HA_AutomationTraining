@@ -1,0 +1,21 @@
+package com.healthasyst.inheritance;
+
+class Parent{
+	
+	public void parentStyle()
+	{
+		
+		System.out.println("Parent Style");
+		
+	}
+	
+}
+
+public class InheritanceTest {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

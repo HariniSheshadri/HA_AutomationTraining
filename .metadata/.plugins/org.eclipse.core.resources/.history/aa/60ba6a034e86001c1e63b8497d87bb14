@@ -1,0 +1,9 @@
+Feature: Login
+				In order to maintain medical records
+				As a user
+				I would like to access the OpenEMR portal
+Scenario: Valid Credential
+Given I have browser with OpenEMR page
+When I enter username as 'admin'
+And I enter username as 'pass'
+And I select language as 'English (Indian)'

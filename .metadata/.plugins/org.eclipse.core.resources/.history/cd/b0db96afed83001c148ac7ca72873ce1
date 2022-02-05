@@ -1,0 +1,35 @@
+package com.ha.groups;
+
+import com.ha.base.Person;
+
+public class Student extends Person {
+	private int studentID;
+	private double studentPercentage;
+	private String courseCode;
+	
+	
+	public int getStudentID() {
+		return studentID;
+	}
+	public void setStudentID(int studentID) {
+		
+		if(studentID>100) {
+			this.studentID = studentID;
+		}else
+		{
+			System.out.println("Invalid");
+		}
+		
+	}
+	public double getStudentPercentage() {
+		return studentPercentage;
+	}
+	public void setStudentPercentage(double studentPercentage) {
+		this.studentPercentage = studentPercentage;
+	}
+	
+	
+	
+	//write getter setter for studenid and studentpecenatge and check validation for percentage
+
+}

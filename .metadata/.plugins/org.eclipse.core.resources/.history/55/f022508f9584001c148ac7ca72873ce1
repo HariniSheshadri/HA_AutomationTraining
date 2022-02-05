@@ -1,0 +1,8 @@
+package com.ha.groups;
+
+import com.ha.base.Person;
+
+public class Professor extends Person {
+	
+
+}

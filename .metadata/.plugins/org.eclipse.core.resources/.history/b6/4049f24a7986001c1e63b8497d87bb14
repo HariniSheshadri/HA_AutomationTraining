@@ -1,0 +1,30 @@
+@login
+Feature: Login
+  		In order to maintain medical records
+  		As a user
+  		I would like to access the OpenEMR portal
+
+//add details in background instead of providing individual given in each case- this will be common for all featues
+Background:
+    Given I have browser with OpenEMR page
+
+  @invalid @high #high is used to set the priority
+  Scenario: Invalid Credential
+    When I enter username as 'harini'
+    And I enter password as 'shesh'
+    And I select language as 'English (Indian)'
+    And I click on login
+    Then I should get the error as 'Invalid username or password'
+
+  @valid
+  Scenario Outline: Valid Credential
+    When I enter username as '<username>'
+    And I enter password as '<password>'
+    And I select language as '<language>'
+    And I click on login
+    Then I should get access to portal with title as 'OpenEMR'
+
+    Examples: 
+      | username  | password  | language         |
+      | admin     | pass      | English (Indian) |
+      | physician | physician | Dutch            |

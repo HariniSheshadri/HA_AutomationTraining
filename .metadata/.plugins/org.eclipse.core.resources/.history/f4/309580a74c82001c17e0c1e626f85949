@@ -1,0 +1,18 @@
+package com.healthasyst.practise;
+
+public class PractiseAssignments {
+
+	public static void main(String[] args) {
+		
+		//Odd Even Calculator
+		int i=35;
+		int Number=OddEvenCalculator.calculateOddEven(i);
+		System.out.println("The number is "+Number);
+	}
+	
+	//Print the sequence
+		int a=3;
+		int b=1;
+		PrintTheSequence.Sequence(a, b, c);
+		}
+}

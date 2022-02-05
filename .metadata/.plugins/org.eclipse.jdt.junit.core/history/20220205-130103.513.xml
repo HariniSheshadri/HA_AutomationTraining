@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest" project="OpenEMRApplication" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="com.healthasyst.runner.RunnerTest" time="0.515">
+    <testsuite name="Login" time="0.515">
+      <testcase name="Valid Credential" classname="Login" time="0.515">
+        <error>java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html&#13;
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:311)&#13;
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:38)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:231)&#13;
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)&#13;
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:127)&#13;
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:48)&#13;
+	at com.healthasyst.stepdefn.LoginStep.i_have_browser_with_open_emr_page(LoginStep.java:19)&#13;
+	at ✽.I have browser with OpenEMR page(file:///C:/Users/harinis/.m2/OpenEMRApplication/src/test/resources/feature/Login.feature:6)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,42 @@
+package com.healthasyst.employee;
+
+public class EmployeeTest {
+	public static void main(String args[]) {
+		
+		Employee.companyName="HA"; 
+		
+		//creating 3 objects for employee
+		Employee emp1=new Employee();
+		Employee emp2=new Employee();
+		Employee emp3=new Employee();
+		
+		emp1.empID=101;
+		emp1.empName="Harini";
+		emp1.empSalary=6000;
+		
+		emp2.empID=102;
+		emp2.empName="Sushma";
+		emp2.empSalary=10000;
+		
+		emp3.empID=103;
+		emp3.empName="Punit";
+		emp3.empSalary=8000;
+		
+		System.out.println(emp1.empID);
+		System.out.println(emp1.empName);
+		System.out.println(emp1.empSalary);
+		System.out.println(Employee.companyName);
+		
+		System.out.println(emp2.empID);
+		System.out.println(emp2.empName);
+		System.out.println(emp2.empSalary);
+		System.out.println(Employee.companyName);
+		
+		System.out.println(emp3.empID);
+		System.out.println(emp3.empName);
+		System.out.println(emp3.empSalary);
+		System.out.println(Employee.companyName);
+		
+	}
+
+}

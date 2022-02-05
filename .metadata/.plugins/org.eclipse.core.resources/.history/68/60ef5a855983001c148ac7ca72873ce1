@@ -1,0 +1,11 @@
+package com.healthasyst.practise;
+
+public class BinaryTriangle {
+	
+	public static void DisplayBinaryTriangle(int rows) {
+		
+		int x,y;
+		
+	}
+
+}

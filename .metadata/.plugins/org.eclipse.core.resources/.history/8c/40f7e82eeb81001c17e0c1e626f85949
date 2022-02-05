@@ -1,0 +1,29 @@
+package com.healthasyst.practise;
+
+public class OddEvenCalculator{
+	
+	public static int calculateOddEven(int input){
+		
+	for(int i=input;i<=30;i++)
+	{
+		if(i%2==0)
+		{
+			System.out.println("The number is even");
+			break;
+			
+		}
+		else if (i%2!=0)
+		{
+			System.out.println("The number is odd");
+			break;
+		}
+		else if(i>30)
+		{
+			System.out.println("The number is not in the given limit");
+			break;
+		}
+	}
+	return input;
+
+}
+}

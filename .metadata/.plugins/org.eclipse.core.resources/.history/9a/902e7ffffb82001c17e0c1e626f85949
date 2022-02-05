@@ -1,0 +1,14 @@
+package com.healthasyst.practise;
+
+public class MultiplicationTableOf5 {
+	
+	public static int Sample4(int a, int b){
+		
+		for (b=1;b<=30;b++) {
+			System.out.println(+a+"*"+b+ "=" + (a*b));
+		}
+		
+		
+	}
+
+}

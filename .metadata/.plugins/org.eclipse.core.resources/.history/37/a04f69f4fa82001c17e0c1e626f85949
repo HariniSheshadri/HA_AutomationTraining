@@ -1,0 +1,26 @@
+package com.healthasyst.practise;
+
+public class PractiseAssignments {
+
+	public static void main(String[] args) {
+		
+		//Sample1 Odd Even Calculator
+		int i=35;
+		int Number=OddEvenCalculator.calculateOddEven(i);
+		System.out.println("The number is "+Number);
+	
+	
+	//Sample2 Print the sequence
+		int a=3;
+		int b=1;
+		PrintTheSequence.Sequence(a, b);
+	
+	//Sample 3 Display Sum of even results between 0-50
+	int result=DisplaySumOfEvenResults.EvenResult();
+	System.out.println(+result);
+	
+	//Sample 4 Create a program to display sum of even results find the result and check whether it is odd or even? (Range is 0 to 50)
+	
+}
+}
+

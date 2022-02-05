@@ -1,0 +1,12 @@
+package com.ha.groups;
+
+import com.ha.base.Person;
+
+public class Student extends Person {
+	private int studentID;
+	private double studentPercentage;
+	private String courseCode;
+	
+	//write getter setter for studenid and studentpecenatge and check validation for percentage
+
+}

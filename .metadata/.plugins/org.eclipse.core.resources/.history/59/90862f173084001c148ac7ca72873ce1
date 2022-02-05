@@ -1,0 +1,18 @@
+package com.healthasyst.practise;
+
+public class Area {
+
+	public static int areaOfSquare(int a) {
+
+		int result = 0;
+
+		if (a > 0) {
+			result = a * a;
+		} else {
+			System.out.println("Invalid input");
+		}
+
+		return result;
+	}
+
+}

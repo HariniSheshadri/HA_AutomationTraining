@@ -1,0 +1,12 @@
+package com.healthasyst.practise;
+
+//Create Student type and Create 3 different instance for storing below values
+
+public class Task4Runner {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

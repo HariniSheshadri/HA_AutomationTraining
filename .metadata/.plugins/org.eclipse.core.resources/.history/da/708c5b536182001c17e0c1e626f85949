@@ -1,0 +1,19 @@
+package com.healthasyst.football;
+
+public class League {
+
+	public static void main(String[] args) {
+		
+		//initialise the player object and load the data
+		Player player1=new Player();
+		player1.playerName="Raina";
+		
+		Player player2=new Player();
+		player2.playerName="John";
+		
+		Player player3=new Player();
+		player3.playerName="Dhoni";
+
+	}
+
+}

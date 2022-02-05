@@ -1,0 +1,15 @@
+package com.HA.volume;
+
+public class Task3 {
+
+	public static void main(String[] args) {
+		Volume vol1=new Volume();
+		//Volume vol2=new() Volume();
+		
+		double r=10;
+		vol1.Volume(r);
+		
+
+	}
+
+}

@@ -1,0 +1,55 @@
+package com.healthasyst.football;
+
+public class League {
+
+	public static void main(String[] args) {
+		
+		//initialise the player object and load the data
+		Player player1=new Player();
+		player1.playerName="Raina";
+		
+		Player player2=new Player();
+		player2.playerName="John";
+		
+		Player player3=new Player();
+		player3.playerName="Dhoni";
+		
+		//create an array and add player details
+		Player[] team1Players=new Player[3];
+		team1Players[0]=player1;
+		team1Players[1]=player2;
+		team1Players[2]=player3;
+		
+		//Load the team amd load the player array details into it
+		Team team1=new Team();
+		team1.teamName="CSK";
+		team1.playerArray=players;
+		
+		//initialise the players for second team and load the data
+		
+		Player player4=new Player();
+		player4.playerName="Kohli";
+		
+		Player player5=new Player();
+		player5.playerName="ABD";
+		
+		Player player6=new Player();
+		player6.playerName="Pant";
+		
+		//Create an array and add player details into it
+		Player[] players=new Player[3];
+		Players[]
+		
+				
+				//Load the team
+				Team team2=new Team();
+				team1.teamName="RCB";
+				team1.playerArray=players;
+		
+		
+		
+		
+		System.out.println();
+	}
+
+}

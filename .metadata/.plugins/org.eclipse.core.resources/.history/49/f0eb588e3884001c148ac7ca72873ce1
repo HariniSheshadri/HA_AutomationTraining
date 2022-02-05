@@ -1,0 +1,23 @@
+package com.HA.volume;
+
+public class Volume {
+	
+	public double V;
+
+	public void voulmeOfSphere(double r) {
+		
+	if (r > 0) {
+			double temp = 4 / 3;
+			V = temp * r * r * r * 3.14;
+		} else {
+			System.out.println("Invalid input");
+		}
+
+
+	}
+
+	public void volumeOfCuboid() {
+
+	}
+
+}

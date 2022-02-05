@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest" project="OpenEMRApplication" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.healthasyst.runner.RunnerTest" time="0.213">
+    <testsuite name="Login" time="0.213">
+      <testcase name="Valid Credential #1" classname="Login" time="0.187"/>
+      <testcase name="Valid Credential #2" classname="Login" time="0.026"/>
+    </testsuite>
+  </testsuite>
+</testrun>

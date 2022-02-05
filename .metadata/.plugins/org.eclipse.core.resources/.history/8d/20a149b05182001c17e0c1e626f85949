@@ -1,0 +1,10 @@
+package com.healthasyst.employee;
+
+public class EmployeeTest {
+	public static void main(String args[]) {
+		
+		//creating 3 objects for employee
+		
+	}
+
+}

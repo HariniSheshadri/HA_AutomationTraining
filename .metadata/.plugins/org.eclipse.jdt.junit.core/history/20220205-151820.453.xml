@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RunnerTest" project="OpenEMRApplication" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="com.healthasyst.runner.RunnerTest" time="10.53">
+    <testsuite name="Login" time="10.53">
+      <testcase name="Valid Credential" classname="Login" time="10.53">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'I enter password as 'pass'' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I enter password as {string}")
+public void i_enter_password_as(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

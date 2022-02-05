@@ -1,0 +1,13 @@
+package com.healthasyst.shoppingcart;
+
+public class ItemRunner {
+
+	public static void main(String[] args) {
+		Item I1=new Item();
+		Item I2=new Item();
+		
+		I1.setDescription("Notebooks");
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.ha.runner;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		//Create an object for Student to allocate memory
+		
+		Student stu1=new Student();
+		stu1.setName="Jane Davis";
+
+	}
+
+}

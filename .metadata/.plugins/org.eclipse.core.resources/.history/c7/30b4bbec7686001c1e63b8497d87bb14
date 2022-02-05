@@ -1,0 +1,5 @@
+
+Feature: Patient
+  		In order to maintain the patient records
+  		As an admin
+  		I would like to access the OpenEMR portal

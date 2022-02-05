@@ -1,0 +1,31 @@
+package com.healthasyst.methods;
+
+public class MethodsDemo {
+	
+	//are of circle
+	
+	public static double areaOfCircle(int r) {
+		double areaC=3.14*r*r;
+		return areaC;
+	}
+	
+	//areaof triangle
+	
+	public static double areaOfTriangle(double b, double h) {
+		double areaT=(b*h)/2;
+		return areaT;
+	}
+	
+	public static void main(String[] args) {
+		int i=10;
+		double base=25;
+		double height=1;
+		double circle=MethodsDemo.areaOfCircle(i);
+		System.out.println("Area of circle is" +circle);
+		
+		double triangle=MethodsDemo.areaOfTriangle(base, height);
+		System.out.println("Area of Triangle is "+triangle);
+		
+	}
+
+}

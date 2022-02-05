@@ -1,0 +1,12 @@
+package com.healthasyst.practise;
+
+public class TempMaxMin {
+	
+	public static float Weather(double temp[]) {
+		
+		
+		
+		
+	}
+
+}

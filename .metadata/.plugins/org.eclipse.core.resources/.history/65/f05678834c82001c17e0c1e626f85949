@@ -1,0 +1,12 @@
+package com.healthasyst.practise;
+
+public class PrintTheSequence {
+	
+	public static int Sequence(int a,int b,int c) {
+		
+		c=a*b;
+		return(c);
+		
+	}
+
+}

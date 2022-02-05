@@ -1,0 +1,12 @@
+package com.healthasyst.practise;
+
+public class MultiplicationTableOf5 {
+	
+	public static int Sample4(int a, int b){
+		
+		
+		
+		
+	}
+
+}

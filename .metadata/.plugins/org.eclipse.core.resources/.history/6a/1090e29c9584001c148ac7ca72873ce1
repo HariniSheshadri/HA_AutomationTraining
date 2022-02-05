@@ -1,0 +1,17 @@
+package com.ha.groups;
+
+import com.ha.base.Person;
+
+public class Professor extends Person {
+	private int professroId;
+	private int departmentId;
+	private String departmentName;
+	private int experience;
+	public int getProfessroId() {
+		return professroId;
+	}
+	public void setProfessroId(int professroId) {
+		this.professroId = professroId;
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.voya.runner;
+
+import com.HA.volume.Volume;
+
+public class VolumeTest {
+
+	public static void main(String[] args) {
+		Volume vol1 = new Volume();
+		double r = 15.5;
+		vol1.voulmeOfSphere(r);
+
+	}
+
+}

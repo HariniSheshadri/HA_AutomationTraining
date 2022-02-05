@@ -1,0 +1,17 @@
+package com.ha.base;
+
+public class Person {
+	private String name;
+	private int phonenumber;
+	private String mailID;
+	private String address;
+	private static String schoolName;
+	private static String schoolAddress;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.HA.volume;
+
+public class Volume {
+	
+	public void voulmeOfSphere() {
+		
+	}
+	
+	public void volumeOfCuboid(){
+		
+	}
+
+}

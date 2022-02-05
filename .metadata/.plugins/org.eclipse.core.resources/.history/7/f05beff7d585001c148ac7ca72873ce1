@@ -1,0 +1,13 @@
+package com.ha.openemr;
+
+public class Day6Task12 {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","./Library/chromedriver.exe");
+		Webdriver driver=new ChromeDrive();
+		
+		
+
+	}
+
+}
